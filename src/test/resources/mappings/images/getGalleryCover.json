@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/t/galleries/987560/cover.jpg"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "images/small.jpg",
+    "headers": {
+      "Content-Type": "image/jpeg"
+    }
+  }
+}

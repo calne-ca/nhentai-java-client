@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/i/avatars/user1.png"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "images/small.png",
+    "headers": {
+      "Content-Type": "image/png"
+    }
+  }
+}

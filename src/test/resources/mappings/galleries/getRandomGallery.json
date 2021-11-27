@@ -1,0 +1,12 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/random/"
+  },
+  "response": {
+    "status": 302,
+    "headers": {
+      "Location": "/g/177013/"
+    }
+  }
+}

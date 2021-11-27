@@ -1,0 +1,24 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/api/galleries/tagged",
+    "queryParameters" : {
+      "tag_id" : {
+        "equalTo" : "80551"
+      },
+      "page" : {
+        "equalTo" : "2"
+      },
+      "sort" : {
+        "equalTo" : "popular"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "galleries/searchGalleriesByTag_page2.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

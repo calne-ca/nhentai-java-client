@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/i/galleries/987560/1.jpg"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "images/small.jpg",
+    "headers": {
+      "Content-Type": "image/jpeg"
+    }
+  }
+}

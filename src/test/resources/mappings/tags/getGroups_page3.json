@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/groups",
+    "queryParameters" : {
+      "page" : {
+        "equalTo" : "3"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "tags/getTags_emptyPage.html",
+    "headers": {
+      "Content-Type": "text/html"
+    }
+  }
+}

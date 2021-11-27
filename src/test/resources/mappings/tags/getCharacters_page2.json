@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/characters",
+    "queryParameters" : {
+      "page" : {
+        "equalTo" : "2"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "tags/getCharacters_page2.html",
+    "headers": {
+      "Content-Type": "text/html"
+    }
+  }
+}

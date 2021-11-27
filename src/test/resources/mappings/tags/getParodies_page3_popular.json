@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/parodies/popular",
+    "queryParameters" : {
+      "page" : {
+        "equalTo" : "3"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "tags/getParodies_page3_popular.html",
+    "headers": {
+      "Content-Type": "text/html"
+    }
+  }
+}
