@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/artists",
+    "queryParameters" : {
+      "page" : {
+        "equalTo" : "2"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "tags/getArtists_page2.html",
+    "headers": {
+      "Content-Type": "text/html"
+    }
+  }
+}

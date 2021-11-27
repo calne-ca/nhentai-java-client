@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/characters/popular",
+    "queryParameters" : {
+      "page" : {
+        "equalTo" : "8"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "tags/getCharacters_page8_popular.html",
+    "headers": {
+      "Content-Type": "text/html"
+    }
+  }
+}

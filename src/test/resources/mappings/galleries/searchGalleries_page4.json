@@ -1,0 +1,24 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/api/galleries/search",
+    "queryParameters" : {
+      "query" : {
+        "equalTo" : "artist:tsuttsu"
+      },
+      "page" : {
+        "equalTo" : "4"
+      },
+      "sort" : {
+        "equalTo" : "recent"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "galleries/searchGalleries_page4.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

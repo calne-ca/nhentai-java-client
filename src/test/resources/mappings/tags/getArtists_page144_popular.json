@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/artists/popular",
+    "queryParameters" : {
+      "page" : {
+        "equalTo" : "144"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "tags/getArtists_page144_popular.html",
+    "headers": {
+      "Content-Type": "text/html"
+    }
+  }
+}
