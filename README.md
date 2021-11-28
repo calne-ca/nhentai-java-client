@@ -2,7 +2,7 @@
   <a href="https://search.maven.org/artifact/net.beardbot/nhentai-client"><img src="https://maven-badges.herokuapp.com/maven-central/net.beardbot/nhentai-client/badge.svg"></a>
   <a href="https://github.com/calne-ca/nhentai-java-client/actions?query=workflow%3ABuild"><img src="https://github.com/calne-ca/nhentai-java-client/workflows/Build/badge.svg"></a>
   <a href="https://codecov.io/gh/calne-ca/nhentai-java-client"><img src="https://codecov.io/gh/calne-ca/nhentai-java-client/branch/master/graph/badge.svg?token=014VNVNCYN"></a>
-  <br><br>
+  <br>
   <a href="https://nhentai.net"><img src="https://static.nhentai.net/img/logo.090da3be7b51.svg" width="128" height="128" /></a>
 </p>
 
@@ -97,6 +97,11 @@ var query = "tag:sister language:english -tag:netorare uploaded:<30d";
 var result = nHentai.galleries().search(query);
 result.getPageResult().forEach(g-> System.out.println(g.getPrettyTitle()));
 ````
+The query has the same format as a query you would put into the search bar of nhentai.
+See [nhentai documentation](https://nhentai.net/info/) for the syntax of these queries.
+If you don't want to create these queries manually you can use the *QueryBuilder*.
+See [Create queries with Query Builder](#create-queries-with-query-builder) for an example using the same query.
+
 
 ##### Search for galleries with search params:
 ````java
