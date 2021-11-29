@@ -128,7 +128,7 @@ var result = nHentai.galleries().search(query);
 var result = nHentai.galleries().search("artist:Rustle");
 var galleries = result.getGalleries();
 
-for (int i = 2; i < result.getNumberOfPages(); i++) {
+for (int i = 2; i <= result.getNumberOfPages(); i++) {
     galleries.addAll(result.getGalleriesOnPage(i));
 }
 ````
